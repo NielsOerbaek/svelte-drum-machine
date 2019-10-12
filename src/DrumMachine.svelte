@@ -16,18 +16,24 @@
       },
       volume: 0.8
     }),
+    hihat: new Howl({
+      src: "/audio/hihat.mp3",
+      sprite: {
+        cropped: [100, 300]
+      }
+    }),
     liv: new Howl({
       src: "/audio/liv.mp3",
       sprite: {
         cropped: [250, 300]
       }
     }),
-    bongo: new Howl({
-      src: "/audio/bongo.mp3",
-      sprite: {
-        cropped: [250, 300]
-      }
-    })
+    //bongo: new Howl({
+    //  src: "/audio/bongo.mp3",
+    //  sprite: {
+    //    cropped: [250, 300]
+    //  }
+    //}),
   };
 
   export let height;
