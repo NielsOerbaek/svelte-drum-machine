@@ -25,6 +25,7 @@
   }
   .drum-field.highlight-true {
     background: yellowgreen;
+    transition: none;
   }
 
   .sound-button {
