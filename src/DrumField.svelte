@@ -46,7 +46,7 @@
     background: black;
     box-shadow: 5px 5px 0 0 #555;
     transform: none;
-    transition: 300ms all ease;
+    transition: 100ms all ease;
   }
   .on-label:active {
     box-shadow: 0px 0px 0 0 #555;
